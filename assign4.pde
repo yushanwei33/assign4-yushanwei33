@@ -44,29 +44,6 @@ float stoneSpacingY=640/STONE1COUNT;
 
 boolean demoMode = false;
 
-int soilEmptyX1=int(random(8))*SOIL_SIZE;
-int soilEmptyX2=int(random(8))*SOIL_SIZE;
-int soilEmptyX3=int(random(8))*SOIL_SIZE;
-int soilEmptyX4=int(random(8))*SOIL_SIZE;
-int soilEmptyX5=int(random(8))*SOIL_SIZE;
-int soilEmptyX6=int(random(8))*SOIL_SIZE;
-int soilEmptyX7=int(random(8))*SOIL_SIZE;
-int soilEmptyX8=int(random(8))*SOIL_SIZE;
-int soilEmptyX9=int(random(8))*SOIL_SIZE;
-int soilEmptyX10=int(random(8))*SOIL_SIZE;
-int soilEmptyX11=int(random(8))*SOIL_SIZE;
-int soilEmptyX12=int(random(8))*SOIL_SIZE;
-int soilEmptyX13=int(random(8))*SOIL_SIZE;
-int soilEmptyX14=int(random(8))*SOIL_SIZE;
-int soilEmptyX15=int(random(8))*SOIL_SIZE;
-int soilEmptyX16=int(random(8))*SOIL_SIZE;
-int soilEmptyX17=int(random(8))*SOIL_SIZE;
-int soilEmptyX18=int(random(8))*SOIL_SIZE;
-int soilEmptyX19=int(random(8))*SOIL_SIZE;
-int soilEmptyX20=int(random(8))*SOIL_SIZE;
-int soilEmptyX21=int(random(8))*SOIL_SIZE;
-int soilEmptyX22=int(random(8))*SOIL_SIZE;
-int soilEmptyX23=int(random(8))*SOIL_SIZE;
 
 int soilEmptyY;
 
@@ -275,34 +252,7 @@ void draw() {
           image(stone2,x-80, y+1440);
           }
        }
-      
-
-      image(soilEmpty,soilEmptyX1,SOIL_SIZE);
-      image(soilEmpty,soilEmptyX2,SOIL_SIZE*2);
-      image(soilEmpty,soilEmptyX3,SOIL_SIZE*3);
-      image(soilEmpty,soilEmptyX4,SOIL_SIZE*4);
-      image(soilEmpty,soilEmptyX5,SOIL_SIZE*5);
-      image(soilEmpty,soilEmptyX6,SOIL_SIZE*6);
-      image(soilEmpty,soilEmptyX7,SOIL_SIZE*7);
-      image(soilEmpty,soilEmptyX8,SOIL_SIZE*8);
-      image(soilEmpty,soilEmptyX9,SOIL_SIZE*9);
-      image(soilEmpty,soilEmptyX10,SOIL_SIZE*10);
-      image(soilEmpty,soilEmptyX11,SOIL_SIZE*11);
-      image(soilEmpty,soilEmptyX12,SOIL_SIZE*12);
-      image(soilEmpty,soilEmptyX13,SOIL_SIZE*13);
-      image(soilEmpty,soilEmptyX14,SOIL_SIZE*14);
-      image(soilEmpty,soilEmptyX15,SOIL_SIZE*15);
-      image(soilEmpty,soilEmptyX16,SOIL_SIZE*16);
-      image(soilEmpty,soilEmptyX17,SOIL_SIZE*17);
-      image(soilEmpty,soilEmptyX18,SOIL_SIZE*18);
-      image(soilEmpty,soilEmptyX19,SOIL_SIZE*19);
-      image(soilEmpty,soilEmptyX20,SOIL_SIZE*20);
-      image(soilEmpty,soilEmptyX21,SOIL_SIZE*21);
-      image(soilEmpty,soilEmptyX22,SOIL_SIZE*22);
-      image(soilEmpty,soilEmptyX23,SOIL_SIZE*23);
-
-
-     
+        
     
       
 
